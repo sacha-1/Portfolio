@@ -2,7 +2,7 @@
    Tokens
    =========================================================== */
 :root {
-  --paper: #2E453F;
+  --paper: #FFFFFF;
   --paper-alt: #EEF2F5;
   --ink: #14202B;
   --ink-soft: #4E5F6E;
@@ -11,7 +11,7 @@
   --silt: #4C8C3E;
   --line: #DEE5EA;
   --card-bg: #FFFFFF;
-  --contact-bg: #101E28;
+  --contact-bg: #FFFFFF;
   --contact-ink: #F2F4F6;
   --contact-ink-soft: #A9B8C4;
 
