@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sacha Meunier — Portfolio</title>
+<meta name="description" content="Élève-ingénieur en hydraulique fluviale et systèmes d'information géographique. Portfolio, projets et contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="mark" aria-label="Accueil">SM</a>
+    <nav class="nav" id="nav">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <p class="eyebrow">Portfolio — ingénierie &amp; SIG</p>
+    <h1>Sacha Meunier</h1>
+    <p class="hero-sub">Élève-ingénieur en hydraulique fluviale et systèmes d'information géographique.</p>
+    <p class="hero-text">
+      Actuellement en stage au sein du <strong>Pôle Ouvrages du SYMBHI</strong>, où je travaille sur le
+      diagnostic et le suivi topo-bathymétrique du bassin de l'Isère amont.
+    </p>
+    <div class="hero-actions">
+      <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+      <a href="#contact" class="btn btn-ghost">Me contacter</a>
+    </div>
+  </section>
+
+  <!-- SIGNATURE : profil en long -->
+  <div class="profile-divider wrap" role="presentation" aria-hidden="true">
+    <svg viewBox="0 0 1000 90" preserveAspectRatio="none" class="profile-svg">
+      <polyline
+        points="0,30 60,32 120,26 180,40 230,42 260,20 300,44 360,48 420,40 470,52 520,50 560,64 610,60 660,70 700,66 740,74 800,70 850,76 900,72 940,78 1000,76"
+        fill="none" stroke="var(--river)" stroke-width="2" />
+      <g class="profile-ticks">
+        <line x1="0" y1="30" x2="0" y2="14"></line>
+        <line x1="1000" y1="76" x2="1000" y2="60"></line>
+        <circle cx="260" cy="20" r="3.5"></circle>
+        <circle cx="610" cy="60" r="3.5"></circle>
+      </g>
+    </svg>
+    <div class="profile-labels">
+      <span>PK 0 — Grenoble</span>
+      <span>PK 83 — Pontcharra</span>
+    </div>
+  </div>
+
+  <!-- À PROPOS -->
+  <section class="section" id="apropos">
+    <div class="wrap">
+      <h2>À propos</h2>
+      <div class="section-grid">
+        <div class="section-text">
+          <p>
+            Je suis élève-ingénieur, actuellement en stage au sein du <strong>SYMBHI</strong> (Syndicat Mixte
+            des Bassins Hydrauliques de l'Isère), au Pôle Ouvrages. Mon travail porte sur l'analyse
+            topo-bathymétrique et le diagnostic des ouvrages de protection contre les crues du bassin de
+            l'Isère amont, entre Grenoble et Pontcharra (PK 0 à 83).
+          </p>
+          <p>
+            Au croisement de l'hydraulique fluviale et des systèmes d'information géographique, je développe
+            des outils Python et PyQGIS pour automatiser le traitement de données topographiques, produire des
+            profils en long et caractériser les évolutions morphologiques du lit de la rivière.
+          </p>
+          <p class="placeholder-hint">
+            [Complète ce paragraphe avec ta formation, ton établissement et tes objectifs professionnels.]
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section alt" id="competences">
+    <div class="wrap">
+      <h2>Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Hydraulique &amp; SIG</h3>
+          <ul>
+            <li>QGIS &amp; PyQGIS</li>
+            <li>Analyse topo-bathymétrique</li>
+            <li>Profils en long et en travers</li>
+            <li>Géoréférencement (Lambert-93)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Développement</h3>
+          <ul>
+            <li>Python</li>
+            <li>Jupyter &amp; ipywidgets</li>
+            <li>Pandas &amp; Matplotlib</li>
+            <li>SQLite &amp; GeoPackage</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Méthode &amp; outils</h3>
+          <ul>
+            <li>Git</li>
+            <li>Automatisation de traitements SIG</li>
+            <li>Rédaction technique</li>
+            <li>Gestion de données de terrain</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section" id="projets">
+    <div class="wrap">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>Suivi topo-bathymétrique pluriannuel</h3>
+          <p>
+            Chaîne de traitement Python pour comparer cinq campagnes topo-bathymétriques (1999–2024) sur
+            83 km de rivière&nbsp;: calcul des surfaces d'érosion et de dépôt, synthèse par tronçon,
+            interface Jupyter interactive.
+          </p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>GeoPackage</li>
+            <li>Jupyter</li>
+            <li>SIG</li>
+          </ul>
+          <a href="#" class="project-link">Lien vers le code / démo →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Classification de l'ordre de Strahler</h3>
+          <p>
+            Script PyQGIS calculant l'ordre de Strahler d'un réseau hydrographique par une approche de
+            graphe, pour la symbologie cartographique à l'échelle du bassin.
+          </p>
+          <ul class="tags">
+            <li>PyQGIS</li>
+            <li>Analyse de réseau</li>
+            <li>Cartographie</li>
+          </ul>
+          <a href="#" class="project-link">Lien vers le code / démo →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Reclassification lithologique BRGM</h3>
+          <p>
+            Script PyQGIS de reclassement automatique d'une couche géologique BRGM en grandes classes
+            lithologiques, pour intégration dans les études de bassin.
+          </p>
+          <ul class="tags">
+            <li>PyQGIS</li>
+            <li>Géologie</li>
+            <li>SIG</li>
+          </ul>
+          <a href="#" class="project-link">Lien vers le code / démo →</a>
+        </article>
+
+      </div>
+      <p class="placeholder-hint">[Remplace les liens « # » par tes dépôts GitHub, captures d'écran ou démonstrations.]</p>
+    </div>
+  </section>
+
+  <!-- PARCOURS -->
+  <section class="section alt" id="parcours">
+    <div class="wrap">
+      <h2>Parcours</h2>
+      <ol class="timeline">
+        <li>
+          <span class="timeline-date">[Année] — Aujourd'hui</span>
+          <span class="timeline-title">Stage ingénieur — SYMBHI, Pôle Ouvrages</span>
+          <span class="timeline-desc">Études hydrauliques sur le bassin de l'Isère amont (PK 0–83).</span>
+        </li>
+        <li>
+          <span class="timeline-date">[Année] — [Année]</span>
+          <span class="timeline-title">[Nom de ta formation d'ingénieur]</span>
+          <span class="timeline-desc">[École / spécialité / mentions à préciser.]</span>
+        </li>
+        <li>
+          <span class="timeline-date">[Année]</span>
+          <span class="timeline-title">[Étape précédente : prépa, licence...]</span>
+          <span class="timeline-desc">[Description courte.]</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>Contact</h2>
+        <p>Discutons de vos projets en hydraulique fluviale, SIG ou développement d'outils.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:ton.email@example.com">ton.email@example.com</a></li>
+        <li><a href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/ton-profil" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Sacha Meunier</span>
+    <span class="footer-note">Construit avec GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
