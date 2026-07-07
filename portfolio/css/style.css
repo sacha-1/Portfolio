@@ -2,18 +2,18 @@
    Tokens
    =========================================================== */
 :root {
-  --paper: #FBFCFA;
-  --paper-alt: #EAF1EC;
-  --ink: #33443F;
-  --ink-soft: #71847C;
-  --river: #6FA89C;
-  --river-deep: #3F6E63;
-  --silt: #7FA3B8;
-  --line: #E3EAE6;
+  --paper: #FFFFFF;
+  --paper-alt: #EEF2F5;
+  --ink: #14202B;
+  --ink-soft: #4E5F6E;
+  --river: #1D6FA5;
+  --river-deep: #124A70;
+  --silt: #4C8C3E;
+  --line: #DEE5EA;
   --card-bg: #FFFFFF;
-  --contact-bg: #2E453F;
-  --contact-ink: #F5F7F4;
-  --contact-ink-soft: #B7C7C0;
+  --contact-bg: #101E28;
+  --contact-ink: #F2F4F6;
+  --contact-ink-soft: #A9B8C4;
 
   --font-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
