@@ -244,7 +244,7 @@ a:hover { color: var(--river); }
 }
 .btn-outline:hover { border-color: var(--river-deep); color: var(--river-deep); }
 
-/* Signature hero visual: diagonal bathymetric contour panel */
+/* Signature hero visual: diagonal photo panel */
 .hero-visual {
   position: absolute;
   top: 0;
@@ -254,11 +254,12 @@ a:hover { color: var(--river); }
   z-index: 1;
   clip-path: polygon(38% 0, 100% 0, 100% 100%, 8% 100%);
   background: var(--paper-alt);
+  padding: 56px 40px;
 }
 .hero-visual img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   display: block;
 }
 .hero-visual.no-image {
