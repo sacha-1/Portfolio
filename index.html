@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sacha Meunier — Portfolio</title>
-<meta name="description" content="Géographe - Cartographe spécialisé en gestion environnementale et dynamique hydrologique. Portfolio, projets et contact.">
+<title>Sacha Meunier — Portfolio Cartographe</title>
+<meta name="description" content="Géographe et cartographe indépendant. Cartothèque, prestations, compétences et contact.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -19,6 +19,8 @@
     <a href="#" class="mark" aria-label="Accueil">SM</a>
     <nav class="nav" id="nav">
       <a href="#apropos">À propos</a>
+      <a href="#cartotheque">Cartothèque</a>
+      <a href="#prestations">Prestations</a>
       <a href="#competences">Compétences</a>
       <a href="#projets">Projets</a>
       <a href="#parcours">Parcours</a>
@@ -37,20 +39,22 @@
     <div class="hero-inner wrap">
       <div class="hero-text-col">
         <h1>Sacha<br>Meunier</h1>
-        <p class="hero-role">Géographe - Cartographe spécialisé en gestion environnementale et hydrologique</p>
+        <p class="hero-role">Géographe — Cartographe indépendant</p>
         <p class="hero-text">
-          Actuellement en stage de fin d'études au <strong>Syndicat Mixte des Bassins Hydrologiques de l'Isère (SYMBHI)</strong>, je travaille actuellement sur le diagnostic et le suivi topo-bathymétrique du bassin versant de l'Isère amont. Passionné de géographie et de cartographie, j'aimerais prochainement poursuivre dans ce domaine en proposant mes services d'analyse SIG et en vous accompagnant pour répondre à vos besoins !
+          Actuellement en stage au sein du <strong>Pôle Ouvrages du SYMBHI</strong>, où je travaille sur le
+          diagnostic et le suivi topo-bathymétrique du bassin de l'Isère amont. Je me forme en parallèle
+          à me lancer comme cartographe indépendant : cartes thématiques, analyses SIG et infographies
+          sur-mesure.
         </p>
         <div class="hero-actions">
-          <a href="#projets" class="btn btn-primary">Projets</a>
-          <a href="#competences" class="btn btn-outline">Compétences</a>
+          <a href="#cartotheque" class="btn btn-primary">Cartothèque</a>
+          <a href="#prestations" class="btn btn-outline">Prestations</a>
           <a href="#contact" class="btn btn-outline">Contact</a>
         </div>
       </div>
     </div>
-    <div class="hero-visual" role="presentation" aria-hidden="true">
     <div class="hero-visual">
-      <img src="SYMBHI_Legislatif.png" onerror="this.parentElement.classList.add('no-image')">
+      <img src="assets/hero.jpg" alt="Photo de terrain — bassin de l'Isère amont" onerror="this.parentElement.classList.add('no-image')">
     </div>
   </section>
 
@@ -61,21 +65,152 @@
       <div class="section-grid">
         <div class="section-text">
           <p>
-            Actuellement en cours de finalisation de mon master 2 de <stron>Gestion de l'environnement</stron> à l'Université Jean Moulin Lyon III, j'occupe un poste de stagiaire au sein du SYMBHI pour une durée de 6 mois. 
-            Mon travail porte notamment sur l'analyse de données topo-bathymétriques et le suivi des systèmes d'endiguement du secteur <stron>Isère amont</stron>, entre Grenoble et Pontcharra. 
-            Dans ce cadre, je développe des outils de visualisation de données bathymétriques issues de campagnes de levés menées entre 1999 et 2024.
+            Je suis élève-ingénieur, actuellement en stage au sein du <strong>SYMBHI</strong> (Syndicat Mixte
+            des Bassins Hydrauliques de l'Isère), au Pôle Ouvrages. Mon travail porte sur l'analyse
+            topo-bathymétrique et le diagnostic des ouvrages de protection contre les crues du bassin de
+            l'Isère amont, entre Grenoble et Pontcharra (PK 0 à 83).
           </p>
           <p>
-            Au croisement de l'hydrologie et des systèmes d'information géographique, mon travail consiste à développer
+            Au croisement de l'hydraulique fluviale et des systèmes d'information géographique, je développe
             des outils Python et PyQGIS pour automatiser le traitement de données topographiques, produire des
-            profils en travers et caractériser les évolutions morphologiques du lit de la rivière à travers une analyse diachronique.
+            profils en long et caractériser les évolutions morphologiques du lit de la rivière.
+          </p>
+          <p>
+            En parallèle de cette expérience en bureau d'études, je construis mon activité de cartographe
+            indépendant : réalisation de cartes thématiques, analyses spatiales et infographies pour des
+            besoins variés — collectivités, associations, presse ou entreprises. Vous trouverez un aperçu de
+            mes réalisations dans la <a href="#cartotheque">cartothèque</a> ci-dessous.
+          </p>
+          <p class="placeholder-hint">
+            [Complète ce paragraphe avec ta formation, ton établissement et tes objectifs professionnels.]
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COMPÉTENCES -->
+  <!-- CARTOTHÈQUE -->
+  <section class="section alt" id="cartotheque">
+    <div class="wrap">
+      <h2>Cartothèque</h2>
+      <p class="section-intro">Un aperçu de mes réalisations cartographiques — clique sur une carte pour l'agrandir et parcourir la sélection.</p>
+
+      <div class="filter-tabs" role="tablist" aria-label="Filtrer la cartothèque">
+        <button class="filter-tab is-active" data-filter="all" type="button">Tout</button>
+        <button class="filter-tab" data-filter="thematique" type="button">Cartes thématiques</button>
+        <button class="filter-tab" data-filter="sig" type="button">Analyses SIG</button>
+        <button class="filter-tab" data-filter="infographie" type="button">Infographies</button>
+      </div>
+
+      <div class="map-grid" id="mapGrid">
+
+        <button class="map-card" data-category="thematique" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-01.jpg" alt="[Titre de la carte 1]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 1]</span>
+        </button>
+
+        <button class="map-card" data-category="thematique" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-02.jpg" alt="[Titre de la carte 2]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 2]</span>
+        </button>
+
+        <button class="map-card" data-category="sig" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-03.jpg" alt="[Titre de la carte 3]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 3]</span>
+        </button>
+
+        <button class="map-card" data-category="sig" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-04.jpg" alt="[Titre de la carte 4]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 4]</span>
+        </button>
+
+        <button class="map-card" data-category="infographie" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-05.jpg" alt="[Titre de la carte 5]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 5]</span>
+        </button>
+
+        <button class="map-card" data-category="infographie" type="button">
+          <span class="map-card-media">
+            <img src="assets/cartotheque/carte-06.jpg" alt="[Titre de la carte 6]" onerror="this.closest('.map-card').classList.add('no-image')">
+          </span>
+          <span class="map-card-caption">[Titre de la carte 6]</span>
+        </button>
+
+      </div>
+      <p class="placeholder-hint">[Remplace les images dans assets/cartotheque/ et les titres entre crochets par tes vraies cartes. Voir le README pour ajouter d'autres cartes.]</p>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fermer">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Carte précédente">‹</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Carte suivante">›</button>
+  </div>
+
+  <!-- PRESTATIONS -->
+  <section class="section" id="prestations">
+    <div class="wrap">
+      <h2>Prestations</h2>
+      <div class="skills-grid">
+
+        <div class="skill-item">
+          <div class="skill-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="var(--river-deep)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="24" cy="24" r="21"></circle>
+              <path d="M24 12c-5 0-9 4-9 9 0 7 9 15 9 15s9-8 9-15c0-5-4-9-9-9z"></path>
+              <circle cx="24" cy="21" r="3"></circle>
+            </svg>
+          </div>
+          <h3>Cartes thématiques</h3>
+          <p class="service-desc">Illustration d'un thème ou de données&nbsp;: tourisme, mobilité, environnement, communication.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="var(--river-deep)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="24" cy="24" r="21"></circle>
+              <path d="M24 12 L34 17 L24 22 L14 17 Z"></path>
+              <path d="M14 22 L24 27 L34 22"></path>
+              <path d="M14 27 L24 32 L34 27"></path>
+            </svg>
+          </div>
+          <h3>Analyses SIG</h3>
+          <p class="service-desc">Collecte et traitement de données géographiques, analyses spatiales et modélisation.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="var(--river-deep)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="24" cy="24" r="21"></circle>
+              <line x1="14" y1="32" x2="34" y2="32"></line>
+              <line x1="18" y1="28" x2="18" y2="18"></line>
+              <line x1="24" y1="28" x2="24" y2="14"></line>
+              <line x1="30" y1="28" x2="30" y2="22"></line>
+            </svg>
+          </div>
+          <h3>Infographies</h3>
+          <p class="service-desc">Cartes statistiques, chiffres clés et éléments graphiques pour vos rapports.</p>
+        </div>
+
+      </div>
+      <p class="placeholder-hint">[Adapte ces descriptions à tes prestations réelles ; ajoute tarifs ou modalités si tu le souhaites.]</p>
+    </div>
+  </section>
   <section class="section alt" id="competences">
     <div class="wrap">
       <h2>Compétences</h2>
@@ -139,7 +274,7 @@
   <!-- PROJETS -->
   <section class="section" id="projets">
     <div class="wrap">
-      <h2>Projets</h2>
+      <h2>Projets techniques</h2>
       <div class="projects-grid">
 
         <article class="project-card">
@@ -197,29 +332,19 @@
       <h2>Parcours</h2>
       <ol class="timeline">
         <li>
-          <span class="timeline-date">Avril 2026 — Aujourd'hui</span>
-          <span class="timeline-title">Stage de fin d'études — SYMBHI, Pôle Ouvrages</span>
-          <span class="timeline-desc">Développement d'outils d'analyse topo-bathymétrique sur l'Isère amont.</span>
+          <span class="timeline-date">[Année] — Aujourd'hui</span>
+          <span class="timeline-title">Stage ingénieur — SYMBHI, Pôle Ouvrages</span>
+          <span class="timeline-desc">Études hydrauliques sur le bassin de l'Isère amont (PK 0–83).</span>
         </li>
         <li>
-          <span class="timeline-date">Septembre 2025 — Aujourd'hui</span>
-          <span class="timeline-title">Etudiant en Master 2 Gestion de l'environnement parcours Systèmes socio-écologiques</span>
-          <span class="timeline-desc">Géomatique, gestion environnementale, analyse des politiques publiques, RStudio...</span>
+          <span class="timeline-date">[Année] — [Année]</span>
+          <span class="timeline-title">[Nom de ta formation d'ingénieur]</span>
+          <span class="timeline-desc">[École / spécialité / mentions à préciser.]</span>
         </li>
         <li>
-          <span class="timeline-date">Mars 2025 — Août 2025</span>
-          <span class="timeline-title">Stagiaire - SMABCAC</span>
-          <span class="timeline-desc">Travaux d'inventaire, de cartographie et de caractérisation des plans d'eau des bassins versants de l'Anglin et du Sud de la Creuse</span>
-        </li>
-        <li>
-          <span class="timeline-date">Septembre 2024 - Août 2025</span>
-          <span class="timeline-title">Etudiant en Master 2 Gestion de l'environnement parcours Systèmes socio-écologiques</span>
-          <span class="timeline-desc">Python, Ecologie, Changements environnementaux globaux, Droit de l'environnement... </span>
-        </li>
-        <li>
-          <span class="timeline-date">Septembre 2022 - Août 2023</span>
-          <span class="timeline-title">Etudiant en Licence 3 à l'Université d'Islande</span>
-          <span class="timeline-desc">Glaciologie, géologie, volcanologie, QGIS, écologie...</span>
+          <span class="timeline-date">[Année]</span>
+          <span class="timeline-title">[Étape précédente : prépa, licence...]</span>
+          <span class="timeline-desc">[Description courte.]</span>
         </li>
       </ol>
     </div>
@@ -237,11 +362,11 @@
       </div>
       <div class="contact-text">
         <h2>Contact</h2>
-        <p>Discutons de vos projets en hydraulique fluviale, SIG ou développement d'outils.</p>
+        <p>Discutons de vos projets — cartographie, analyse SIG ou hydraulique fluviale, en mission ou en freelance.</p>
       </div>
       <ul class="contact-list">
-        <li><a href="mailto:schmeunier@gmail.com">Email</a></li>
-        <li><a href="www.linkedin.com/in/sacha-meunier-225686174" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:ton.email@example.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a></li>
         <li><a href="https://github.com/ton-profil" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
     </div>
