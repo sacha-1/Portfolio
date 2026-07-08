@@ -671,6 +671,14 @@ a:hover { color: var(--river); }
   fill: none;
 }
 
+.contact-photo img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
 .contact-list {
   list-style: none;
   margin: 0;
