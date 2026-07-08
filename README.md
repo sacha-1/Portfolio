@@ -42,11 +42,9 @@ Si tu veux l'adresse `https://<ton-pseudo>.github.io` directement (sans `/portfo
 - [ ] Adapter les descriptions de la section **Prestations** à ce que tu proposes réellement (et ajouter tarifs/modalités si tu veux).
 - [ ] Remplacer `ton.email@example.com` par ta vraie adresse (section Contact).
 - [ ] Remplacer les liens LinkedIn / GitHub (`ton-profil`) par les tiens.
-- [ ] Compléter le paragraphe « À propos » (formation, établissement, objectifs).
-- [ ] Renseigner les dates et le nom de ta formation dans « Parcours ».
+- [ ] Compléter les années dans « Parcours » (stage, master, étape précédente : licence, prépa...).
 - [ ] Remplacer les liens `#` des cartes projets par tes vrais dépôts / démos / captures d'écran.
-- [ ] Vérifier/adapter le titre `<title>` et la balise `<meta name="description">` dans `index.html` si besoin.
-- [ ] **Ajouter la photo du hero** : dépose une image sous `assets/hero.jpg` (photo de terrain, de l'Isère, ou de toi en mission). Tant que ce fichier n'existe pas, un simple aplat gris s'affiche à la place — rien ne casse. Résolution conseillée : au moins 1200 px sur le plus petit côté ; l'image se recadre automatiquement (`object-fit: cover`), toute orientation convient.
+- [ ] **Ajouter la photo du hero** : dépose une image sous `assets/hero.jpg` (photo de terrain, de l'Isère, ou de toi en mission). Tant que ce fichier n'existe pas, un simple aplat s'affiche à la place — rien ne casse. Résolution conseillée : au moins 1200 px sur le plus petit côté ; l'image se recadre automatiquement (`object-fit: contain`), toute orientation convient.
 - [ ] (Optionnel) Remplacer le pictogramme de silhouette dans la section Contact par une vraie photo : dépose l'image dans `assets/`, remplace le `<svg>` du bloc `.contact-photo` par une balise `<img src="assets/photo.jpg" alt="Sacha Meunier">`.
 
 ## Personnalisation rapide
@@ -83,7 +81,7 @@ Si tu veux l'adresse `https://<ton-pseudo>.github.io` directement (sans `/portfo
 
 ## Note de style
 
-Cette version s'inspire de la mise en page du portfolio d'Antoine Soumet (grands titres noirs en majuscules, boutons plats, section contact en aplat sombre, compétences en icônes cerclées) tout en gardant une identité propre : palette bleu-vert « rivière », motif de lignes bathymétriques signature, et contenu spécifique au parcours de Sacha Meunier.
+Cette version s'inspire de la mise en page du portfolio d'Antoine Soumet (grands titres en majuscules, boutons plats, section contact en aplat sombre, compétences en icônes cerclées) tout en gardant une identité propre : palette pastel « dusty sage & teal » (bleu-vert doux), motif de lignes bathymétriques signature, et contenu réel de Sacha Meunier (géographe, master Gestion de l'environnement — Lyon III, cartographe indépendant).
 
 ## Formulaire de contact (optionnel)
 
