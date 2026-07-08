@@ -2,18 +2,18 @@
    Tokens
    =========================================================== */
 :root {
-  --paper: #FBFCFA;
-  --paper-alt: #EAF1EC;
-  --ink: #33443F;
-  --ink-soft: #71847C;
-  --river: #6FA89C;
-  --river-deep: #3F6E63;
-  --silt: #7FA3B8;
-  --line: #E3EAE6;
+  --paper: #FCFBFD;
+  --paper-alt: #F0ECF5;
+  --ink: #332B3D;
+  --ink-soft: #7A7086;
+  --river: #8172A3;
+  --river-deep: #574670;
+  --silt: #B08CA3;
+  --line: #E7E1EC;
   --card-bg: #FFFFFF;
-  --contact-bg: #2E453F;
-  --contact-ink: #F5F7F4;
-  --contact-ink-soft: #B7C7C0;
+  --contact-bg: #2E2438;
+  --contact-ink: #F6F3F8;
+  --contact-ink-soft: #C2B8CC;
 
   --font-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -664,16 +664,16 @@ a:hover { color: var(--river); }
 }
 
 .contact-photo svg {
-  width: 96px;
-  height: 96px;
+  width: 110px;
+  height: 110px;
   stroke: var(--contact-ink-soft);
   stroke-width: 2;
   fill: none;
 }
 
 .contact-photo img {
-  width: 96px;
-  height: 96px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
