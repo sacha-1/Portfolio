@@ -258,7 +258,7 @@ a:hover { color: var(--river); }
   height: 100%;
   width: 58%;
   z-index: 1;
-  clip-path: polygon(38% 0, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(18% 0, 100% 0, 100% 100%, 0% 100%);
   background: var(--paper-alt);
   padding: 0px;
 }
