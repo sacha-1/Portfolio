@@ -664,16 +664,16 @@ a:hover { color: var(--river); }
 }
 
 .contact-photo svg {
-  width: 96px;
-  height: 96px;
+  width: 110px;
+  height: 110px;
   stroke: var(--contact-ink-soft);
   stroke-width: 2;
   fill: none;
 }
 
 .contact-photo img {
-  width: 96px;
-  height: 96px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
